@@ -1,5 +1,7 @@
 <?php 
     
+    include_once('define.php');
+
     $dados = array(
         "host" => FTP_HOST,
         "usuario" => FTP_USER,
