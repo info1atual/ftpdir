@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="utf-8">
+	<title>Teste de Upload</title>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  	
+</head>
+<body>
+
+<div class="container">
+<h2>Upload de Arquivo</h2><hr>
+<form action="ftp-upload.php" method="post" enctype="multipart/form-data">
+
+<div class="row">
+	<div class="form-group col-sm-6">
+		<label for="projeto">Projeto</label>
+		<input type="text" class="form-control" name="projeto" value="easypdv">
+	</div>
+</div>
+<div class="row">
+	<div class="form-group col-sm-6">
+		<label for="ano_mes">Ano/Mês</label>
+		<input type="text" class="form-control" name="ano_mes" value="201408">
+	</div>
+</div>
+
+<div class="row">
+	<div class="form-group col-sm-6">
+		<label for="arquivo">Arquivo</label><br>
+		<input type="file" name="arquivo" id="arquivo">
+	</div>
+</div>
+<div class="row">
+	<div class="form-group col-sm-6">
+		<input type="submit" class="btn btn-success" name="submit" value="Submit">
+	</div>
+</div>
+</form>
+</div>
+
+</body>
+</html>
