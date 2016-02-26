@@ -10,7 +10,8 @@
 
     $fconn = ftp_connect($dados["host"]);
     $login = ftp_login($fconn, $dados["usuario"], $dados["senha"]);
-    $contents = ftp_nlist($fconn, ".");
+    $contents = ftp_nlist($fconn, "htdocs");
+
 
     echo "<pre>";
     print_r($contents);
@@ -29,3 +30,5 @@
 
     //     return false;
     // } 
+?>
+html:5
