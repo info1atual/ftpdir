@@ -1,0 +1,386 @@
+
+body {
+	color:#eee;
+	font:14px Arial, sans-serif;
+	background:#fff;
+	padding:0;
+	position:relative;
+	margin:0;
+}
+
+img { border: 0 }
+html, body { height:95.5% }
+
+a { text-decoration: none; color: #333; text-align: center; }
+a:link, a:visited { text-decoration: none; color: #999;	}
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+p { text-align: center;	color: #333; padding: 0; }
+
+span { text-decoration: none; color: #333; text-align: center; }
+
+/*--- Topo ---*/
+
+.margem-superior {
+	height: 5px;
+	color: #ccc;
+	clear: both;
+	overflow: hidden;
+	z-index: -100;
+}
+
+#topo {
+	width: 100%;
+	height: 46px;
+	margin: 0 auto;
+	background: none;
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+#titulo {
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	color: #333;
+	background: #1D622B;
+	overflow: hidden;
+	margin-bottom: 3px;
+	height: 40px;
+}
+
+#box-titulo {
+	padding: 0 6px;
+	height: 39px;
+}
+
+#box-topo-logo {
+	width: 46px;
+}
+
+/*--- Conteúdo ---*/
+
+#corpo {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background: none;
+	overflow: hidden;
+	min-height:100%;
+	position:relative;
+}
+
+#result {
+	height: auto;
+	overflow: hidden;
+	clear: none;
+	text-align: center;
+	color: #333;
+	padding: 0 2px;
+}
+
+#conteudo {
+	max-width: 960px;
+	min-width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0.5em;
+	margin-top: 0;
+	clear: both;
+	text-align: center;
+	color: #333;
+	
+}
+
+/*--- Classes em imagens ---*/
+
+img.imgico { width: 100%; }
+img.imgtopo-adicionar {	height: auto; width: 100%; cursor: pointer; }
+
+/*--- Classes diversas ---*/
+
+a.titulos-link {
+	color: #333;
+	text-align: left;
+}
+h3.titulos {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	line-height: 45px;
+	text-align: left;
+}
+
+/*--- Rodapé ---*/
+
+.margem-inferior {
+	height: 53px;
+	color: #ccc;
+	clear: both;
+	overflow: hidden;
+	z-index: -100;
+}
+
+#rodape {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	float: none;
+	text-align: center;
+	overflow: hidden;
+	bottom: 0;
+	background: #fff;
+	margin-top: -150px; /* valor negativo da altura do rodapé */
+	height: auto;
+	clear: both;
+	bottom: 0;
+	position: fixed;
+}
+
+#rodape-into {
+	border-top: 1px solid #ccc;
+	max-width: 960px;
+	min-width: 200px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 22px;
+	bottom: 0;
+}
+
+#rodape-paginas {
+	max-width: 960px;
+	min-width: 200px;
+	margin: 0 auto;
+	padding: 0;
+	float: none;
+	text-align: center;
+	overflow: hidden;
+	bottom: 0;
+	background: #fff;
+}
+
+#creditos {
+	width: 60%;
+	margin: 0 auto;
+	
+	padding-top: 3px;
+	bottom: 0;
+	float: right;
+	text-align: right;
+	color: #333;
+	background: none;
+	overflow: hidden;
+	height: 20px;
+}
+
+#creditos span {
+	padding-right: 4px;
+	bottom: 0;
+}
+
+#listagem-empresas {
+	max-width: 50%;
+	margin: 0 auto;
+}
+/*--- MODAL ---*/
+
+.modal-header-bs {
+  min-height: 16.428571429px;
+  padding: 7px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #1D622B;
+}
+.modal-title-bs {
+  margin: 0;
+  text-align: left;
+  color: #fff;
+  line-height: 1.428571429;
+}
+.close-bs {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=20);
+  font-size: 24px;
+  font-weight: normal;
+}
+.close-bs:hover,
+.close-bs:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+button.close-bs {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  
+
+}
+.modal-body-bs {
+  position: relative;
+  padding: 7px;
+  text-align: left;
+}
+.modal-body-text {
+	padding: 2px;
+}
+
+/*--- Classes genéricas ---*/
+
+.gen10 {
+  height: auto;
+  width: 10%; float: left; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 2px;
+}
+
+.gen15 {
+  height: auto;
+  width: 15%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen20 {
+  height: auto;
+  width: 18%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen25 {
+  height: auto;
+  width: 25%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen33 {
+  height: auto;
+  width: 33.3%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen50 {
+  height: auto;
+  width: 50%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen66 {
+  height: auto;
+  width: 66.6%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen80 {
+  height: auto;
+  width: 80%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen90 {
+  height: auto;
+  width: 90%; float: left; 
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; 
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.gen100 {
+  height: auto;
+  width: 100%; clear: both;
+  overflow: hidden;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: 0;
+}
+
+.centro {
+	margin: 0 auto;
+	float: none;
+}
+
+.alinha-direita {
+	text-align: right;
+}
+
+.alinha-esquerda {
+	text-align: left;
+}
+
+.alinha-centro {
+	text-align: center;
+}
+
+.top2 {
+	margin-top: 2px;
+}
+
+.top5 {
+	margin-top: 5px;
+}
+
+.padding-top5 {
+	padding-top: 5px;
+}
+
+.oculta {
+	display: none;
+}
+
+.borda-bottom {
+	border-bottom: 1px solid #ccc;
+}
+
+.borda-top {
+	border-top: 1px solid #ccc;
+}
+
+.estilo-cor {
+	color: #fff;
+	background: #2c3e50;
+}
+
+.estilo-cor-contraste {
+	background: #fff;
+}
+
+.estilo-cor {
+	color: #fff;
+}
+
+.estilo-cor a:visited {
+	color: #333;
+}
