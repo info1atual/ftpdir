@@ -30,5 +30,4 @@
 
     //     return false;
     // } 
-?>
-html:5
+    
